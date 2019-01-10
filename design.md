@@ -14,7 +14,7 @@
 #* Describe the logic and/or code behind every interaction with the user, and behind everything displayed.
 #* If your program uses an unusual or notable *algorithm*, what is the algorithm and how does it work?
 
-
+#########the code is below (sorry I'm not sure how to put it in as a code file) \/\/\/\/\/
 
 
 alpha = ["A","B","C","D","E","F","G","H","I"]
