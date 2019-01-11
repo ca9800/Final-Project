@@ -160,7 +160,7 @@ while sunk1 < 5 or sunk2 < 5: #says while all 5 ships for either player havn't s
     sunk1 += hit1
     
     #player 2 is shooting at player 1
-    input ("player 2's turn. Please input your guess")
+    input ("player 2's turn. Please input your guess. Hit enter to select your target")
     shot2 = str(input())
     hit2 = ShootSeeSink1(shot2)
     sunk2 += hit2
