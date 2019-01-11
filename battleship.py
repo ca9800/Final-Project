@@ -154,11 +154,13 @@ for x in shipLength:
 while sunk1 < 5 or sunk2 < 5: #says while all 5 ships for either player havn't sunk
     
     #player 1 is shooting at player 2
-    shot1 = str(input()) 
+    input ("player 1's turn. Please input your guess. Hit enter to select your target") #has to hit enter because thats what the inputs makeing you do
+    shot1 = str(input())
     hit1 = ShootSeeSink2(shot1) #inputted cordinate 
     sunk1 += hit1
     
     #player 2 is shooting at player 1
+    input ("player 2's turn. Please input your guess")
     shot2 = str(input())
     hit2 = ShootSeeSink1(shot2)
     sunk2 += hit2
